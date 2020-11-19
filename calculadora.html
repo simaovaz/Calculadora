@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+
+    
+    <link rel="stylesheet" href="./bootstrap.min.css" >
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6" style="background-color: rgb(228, 228, 241);text-align:center; border:1px solid black"> Calculadora 
+            <div class="row">
+                <div class="col-12" id="mostrador" style="background-color: white; padding:20px"> </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4"  id="tecla_1" onclick="mostra(1)"> 1 </div>
+                        <div class="col-4" id="tecla_2" onclick="mostra(2)"> 2</div>
+                        <div class="col-4"id="tecla_3" onclick="mostra(3)"> 3</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4" id="tecla_4" onclick="mostra(4)"> 4</div>
+                        <div class="col-4" id="tecla_5" onclick="mostra(5)"> 5</div>
+                        <div class="col-4" id="tecla_6" onclick="mostra(6)"> 6</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4" id="tecla_7" onclick="mostra(7)"> 7</div>
+                        <div class="col-4" id="tecla_8" onclick="mostra(8)"> 8</div>
+                        <div class="col-4" id="tecla_9" onclick="mostra(9)"> 9</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="text-align:center" id="tecla_0" onclick="mostra(0)"> 0</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3" id="tecla_10" onclick="mostra(10)"> + </div>
+                        <div class="col-3" id="tecla_20" onclick="mostra(20)"> - </div>
+                        <div class="col-3" id="tecla_30" onclick="mostra(30)"> x </div>
+                        <div class="col-3" id="tecla_40" onclick="mostra(40)">  / </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" id="tecla_50" onclick="final()">  = </div>
+                        <div class="col-6" onclick="del()">  delete </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="calculadora.js"></script>
+</html>
+
+
+
+
+
